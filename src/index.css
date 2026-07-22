@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #00cca8;
+  --color-primary-dark: #01a88a;
+  --color-secondary: #0052cc;
+  --color-secondary-dark: #004ab9;
+
+  /* Border Colors */
+  --color-border: #dedede;
+  --color-border-dark: #b9b9b9;
+
+  /* Text Colors */
+  --color-text-primary: #141414;
+  --color-text-secondary: #464646;
+  --color-text-muted: #bab9b9;
+}
+
+body{
+  background-color: #f0f2f6;
+  min-height: 100vh;
+}
